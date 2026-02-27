@@ -6,7 +6,7 @@ import streamlit as st
 import yfinance as yf
 
 st.set_page_config(page_title="OIL SYNT", layout="wide")
-st.title("🛢️ OIL SYNT - Dashboard Analisi WTI")
+st.title("🛢️ OIL SYNT - Analisi WTI")
 
 if "df_raw" not in st.session_state:
     st.session_state.df_raw = None
